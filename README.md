@@ -16,4 +16,5 @@ Para la grabación, se utilizaron tres dispositivos móviles: Xiaomi Redmi Note 
 Para un análisis riguroso, también se grabó el ruido ambiental en cada micrófono sin la presencia de voces. Este paso fue crucial para evaluar la calidad de la separación de fuentes, permitiendo comparar las señales de interés con el ruido capturado. Este análisis será abordado en detalle en la sección "Análisis" del presente informe.
 A continuación, se presenta la evidencia experimental obtenida:
 ![Texto alternativo](señalesinsono.jpg)
+<img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="400" height="300"/>
 
