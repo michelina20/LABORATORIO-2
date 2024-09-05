@@ -137,6 +137,8 @@ print("COMPARACIÓN SNR SEÑAL AISLADA 1 CON SEÑAL 1  (dB):", SNR_Aislada_1)
 
 ```
 
+
+
 ## ANÁLISIS DE RESULTADOS
 
 
