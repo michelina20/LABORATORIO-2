@@ -3,7 +3,7 @@
 ## Tabla de Contenidos
 1. [Objetivo y Metodología del Experimento](#objetivo)
 2. [Configuración Del Sistema](#Configuración)
-3. [Captura De La Señal](#Captura)
+3. [Captura De La Señal](#captura-de-la-señal)
 4. [Fragmentos Clave Del Código Construido](#fragmentos-clave-del-código-construido)
 5. [Análisis De Los Resultados](#análisis-de-resultados)
 
