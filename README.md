@@ -290,11 +290,11 @@ Podemos notar como se obtienen resultados más altos y por ende mejores respecto
   
 - GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 2
   
-     [GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 2](1elimichel.wav)
+     [GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 2](2MICHELYELI.wav)
  
 - GRABACIÓN SILENCIO MICRÓFONO 2
   
-    [GRABACIÓN SILENCIO MICRÓFONO 2](1SILENCIO.wav)
+    [GRABACIÓN SILENCIO MICRÓFONO 2](2SILENCIO.wav)
 
 - GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 3
 
