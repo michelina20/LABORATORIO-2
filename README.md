@@ -282,6 +282,5 @@ Podemos notar como se obtienen resultados más altos y por ende mejores respecto
 
 - GRABACIÓN DE LAS 3 VOCES CON MICROFONO 1
 
-  
-  [1MICHEL Y ELI](1MICHEL Y ELI.wav)
+  [1MICHEL Y ELI](1elimichel.wav)
 
