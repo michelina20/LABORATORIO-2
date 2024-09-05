@@ -22,7 +22,18 @@ A continuación, se presenta la evidencia experimental obtenida:
 ## CAPTURA DE LA SEÑAL
 ## FRAGMENTOS CLAVE DEL CÓDIGO CONSTRUIDO
 
-Funciones para creación de filtro pasabajos y su aplicación:
+Librerias necesarias:
+
+```python
+import librosa
+import numpy as np
+import soundfile as sf
+import matplotlib.pyplot as plt
+from scipy.signal import butter, lfilter
+```
+
+
+Funciones para creación de filtro pasabajos y su aplicación respectivamente:
 
 ```python
 def butter_lowpass(cutoff, fs, order=5):
@@ -36,6 +47,7 @@ def lowpass_filter(data, cutoff, fs, order=5):
     y = lfilter(b, a, data)
     return y
 ```
+
 
 ## ANÁLISIS DE RESULTADOS
 
