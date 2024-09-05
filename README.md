@@ -1,4 +1,12 @@
 # LABORATORIO #2 PROCESAMIENTO DIGITAL DE SEÑALES
+
+## Tabla de Contenidos
+1. [Descripción de la señal fisiológica](#descripción)
+2. [Descripción de la relación señal ruido en este proyecto](#descripción de la relación señal ruido en este proyecto)
+3. [Instalaciones previas](#instalación)
+4. [Instructivo y entendimiento del código](#instructivo)
+5. [Resultados](#resultados)
+
 ## OBJETIVO Y METODOLOGÍA DEL EXPERIMENTO
 El objetivo principal de este experimento fue desarrollar una solución para el fenómeno conocido como "Fiesta de coctel", que consiste en la capacidad de concentrarse en una fuente sonora específica mientras se filtran otras fuentes en un entorno con múltiples emisores de sonido. En este caso, se diseñó un sistema capaz de aislar una única voz entre tres personas hablando simultáneamente.
 Para garantizar condiciones controladas, el experimento se realizó en un cuarto insonorizado, minimizando así la interferencia de ruidos externos y asegurando la calidad de la grabación. En cuanto al diseño experimental, se pidió a los tres emisores (las tres personas) que generaran voces en diferentes rangos tonales (grave, medio y agudo), con el fin de facilitar la separación de las señales y poder identificar la voz de interés, que en este caso fue la de tono grave.
