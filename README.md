@@ -2,7 +2,7 @@
 
 ## Tabla de Contenidos
 1. [Objetivo y Metodología del Experimento](#objetivo)
-2. [Descripción de la relación señal ruido en este proyecto](#descripción de la relación señal ruido en este proyecto)
+2. [Configuración del Sistema](#Configuración)
 3. [Instalaciones previas](#instalación)
 4. [Instructivo y entendimiento del código](#instructivo)
 5. [Resultados](#resultados)
