@@ -216,16 +216,28 @@ De forma gráfica se puede visualizar este análisis para cada caso de la siguie
   <img src="Temporal1.png" alt="Análisis Temporal Para Señal 1" width="800"/>
 </div>
 
+<div align="center">
+  <img src="Espectral1.png" alt="Análisis Espectral Para Señal 1" width="800"/>
+</div>
+
 ### Micrófono 2:
 
 <div align="center">
   <img src="Temporal2.png" alt="Análisis Temporal Para Señal 2" width="800"/>
 </div>
 
+<div align="center">
+  <img src="Espectral2.png" alt="Análisis Espectral Para Señal 2" width="800"/>
+</div>
+
 ### Micrófono 3:
 
 <div align="center">
   <img src="Temporal3.png" alt="Análisis Temporal Para Señal 3" width="800"/>
+</div>
+
+<div align="center">
+  <img src="Espectral 3.png" alt="Análisis Espectral Para Señal 3" width="800"/>
 </div>
 
 ## ANÁLISIS DE RESULTADOS
