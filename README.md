@@ -304,7 +304,7 @@ Para cada gráfica en el dominio del tiempo se logra distinguir pequeñas variac
 
 A pesar de que la comparación entre cada análisis espectral, resulta similar , cuenta con ligeras diferenciaciones,  este análisis respalda de forma contundente la predominancia de la voz grave en el micrófono 3, pues este cuenta con mayores picos en las frecuencias determinadas para tonos graves y disminución frente a las frecuencias altas. 
 
-
+## APLICACIÓN BIOMÉDICA
 
 
 
