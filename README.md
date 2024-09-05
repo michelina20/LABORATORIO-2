@@ -155,12 +155,17 @@ print("COMPARACIÓN SNR SEÑAL AISLADA FINAL CON SEÑAL 1  (dB):", SNR_Aislada_F
 
 ```
 
+Esto arrojó los siguientes resultados:
+
+<div align="center">
+  <img src="ComparaM1conS1.png" alt="VALORES SNR PARA SEÑAL AISLADA RESPECTO A GRABACIÓN INICIAL EN CADA CASO" width="800"/>
+</div>
+
 Finalmente se realiza el análisis temporal y espectral de cada señal, como se ejemplifica:
 
 ```python
 
 #ANÁLISIS TEMPORAL Y ESPECTRAL DE LA SEÑAL 1 :
-    
 
 
 #Análisis Temporal:
@@ -197,6 +202,11 @@ plt.grid()
 plt.show()
 
 ```
+De forma gráfica se puede visualizar este análisis para cada caso de la siguiente forma:
+
+### Micrófono 1 
+
+
 
 ## ANÁLISIS DE RESULTADOS
 
