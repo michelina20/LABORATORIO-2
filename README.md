@@ -17,7 +17,7 @@ Para un análisis riguroso, también se grabó el ruido ambiental en cada micró
 A continuación, se presenta la evidencia experimental obtenida:
 <div align="center">
   <img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="800"/>
-</div
+</div>
   
   
 ## CAPTURA DE LA SEÑAL
