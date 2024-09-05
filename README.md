@@ -137,6 +137,14 @@ print("COMPARACIÓN SNR SEÑAL AISLADA 1 CON SEÑAL 1  (dB):", SNR_Aislada_1)
 
 ```
 
+Esto arrojó los siguientes resultados:
+
+<div align="center">
+  <img src="ComparaM1conS1.png" alt="VALORES SNR PARA SEÑAL AISLADA RESPECTO A GRABACIÓN INICIAL EN CADA CASO" width="800"/>
+</div>
+
+Finalmente se realiza el análisis temporal y espectral de cada señal, como se ejemplifica:
+
 Ahora se comparará la señal aislada reconstruida con la señal que contiene las voces para cada mircófono:
 
 ```python
@@ -155,13 +163,6 @@ print("COMPARACIÓN SNR SEÑAL AISLADA FINAL CON SEÑAL 1  (dB):", SNR_Aislada_F
 
 ```
 
-Esto arrojó los siguientes resultados:
-
-<div align="center">
-  <img src="ComparaM1conS1.png" alt="VALORES SNR PARA SEÑAL AISLADA RESPECTO A GRABACIÓN INICIAL EN CADA CASO" width="800"/>
-</div>
-
-Finalmente se realiza el análisis temporal y espectral de cada señal, como se ejemplifica:
 
 ```python
 
