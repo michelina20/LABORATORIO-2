@@ -20,5 +20,5 @@ A continuación, se presenta la evidencia experimental obtenida:
 </div
   
   
-  ## CAPTURA DE LA SEÑAL
+## CAPTURA DE LA SEÑAL
 
