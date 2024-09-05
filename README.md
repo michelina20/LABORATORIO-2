@@ -280,7 +280,12 @@ Podemos notar como se obtienen resultados más altos y por ende mejores respecto
 
 ## ANEXOS
 
-- GRABACIÓN DE LAS 3 VOCES CON MICROFONO 1
+- GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 1
 
-  [1MICHEL Y ELI](1elimichel.wav)
+  [GRABACIÓN DE LAS 3 VOCES CON MICRÓFONO 1](1elimichel.wav)
+
+- GRABACIÓN SILENCIO MICRÓFONO 1
+  
+ [GRABACIÓN SILENCIO MICRÓFONO 1](1SILENCIO.wav)
+  
 
