@@ -137,7 +137,66 @@ print("COMPARACIÓN SNR SEÑAL AISLADA 1 CON SEÑAL 1  (dB):", SNR_Aislada_1)
 
 ```
 
+Ahora se comparará la señal aislada reconstruida con la señal que contiene las voces para cada mircófono:
 
+```python
+
+#COMPARACIÓN DE SEÑAL AISLADA FINAL CON LA ORIGINAL DE CADA MICRÓFONO
+
+#Para micrófono 1:
+    
+summed_signal = np.square(summed_signal)
+sumatoria_summed_signal = np.sum(summed_signal)
+resultado_potencia_summed_signal = sumatoria_summed_signal / len(summed_signal)
+
+SNR_Aislada_FIN1= 10*np.log10(resultado_potencia_summed_signal/resultado_potencia_PRIMERA)
+
+print("COMPARACIÓN SNR SEÑAL AISLADA FINAL CON SEÑAL 1  (dB):", SNR_Aislada_FIN1)
+
+```
+
+Finalmente se realiza el análisis temporal y espectral de cada señal, como se ejemplifica:
+
+```python
+
+#ANÁLISIS TEMPORAL Y ESPECTRAL DE LA SEÑAL 1 :
+    
+
+
+#Análisis Temporal:
+
+plt.figure(figsize=(12, 6))
+plt.title('Señal Micrófono 1')
+plt.xlabel('Tiempo (Segundos)')
+plt.ylabel('dB')
+librosa.display.waveshow(y, sr=sr)
+plt.tight_layout()
+plt.show()
+
+
+#Análisis Espectral:
+
+
+N = len(y)  
+Y = np.fft.fft(y) 
+frequencies = np.fft.fftfreq(N, 1/sr)  
+
+half_N = N // 2
+Y_half = Y[:half_N] 
+frequencies_half = frequencies[:half_N]  
+
+magnitude = np.abs(Y_half)
+
+plt.figure(figsize=(14, 5))
+plt.plot(frequencies_half, magnitude)
+plt.title('Espectro de Frecuencia de la Señal 1')
+plt.xlabel('Frecuencia (Hz)')
+plt.ylabel('Magnitud')
+plt.xlim(0, sr/2)  
+plt.grid()
+plt.show()
+
+```
 
 ## ANÁLISIS DE RESULTADOS
 
