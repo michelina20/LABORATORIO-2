@@ -13,20 +13,18 @@ Para garantizar condiciones controladas, el experimento se realizó en un cuarto
 ## CONFIGURACIÓN DEL SISTEMA Y CAPTURA DE LA SEÑAL
 Los emisores de sonido se ubicaron a una distancia de 55 cm entre sí, formando una línea horizontal. Los micrófonos, dispuestos de manera lineal sobre una mesa a 1.5 metros de distancia de los emisores, se colocaron con una separación de 2 cm entre ellos e inclinados hacia las personas, optimizando la captura de la voz más cercana a cada micrófono. Esta configuración buscó minimizar la interferencia entre las señales capturadas y mejorar la diferenciación espacial de las fuentes sonoras.
 Para la grabación, se utilizaron tres dispositivos móviles: Xiaomi Redmi Note 13, Xiaomi Redmi Note 13 Pro y TECNO Spark 20C, todos ellos a través de la aplicación RecForge II, que garantizaba una frecuencia de muestreo uniforme de 44.1 kHz en todos los micrófonos. Esta frecuencia se seleccionó debido a su estandarización en la industria del audio, particularmente para la grabación de música y voz. Además, proporciona un margen de seguridad sobre los 40 kHz requeridos según el teorema de Nyquist, evitando la pérdida de detalles en las frecuencias más altas y reduciendo el riesgo de aliasing.(fenómeno que ocurre cuando una señal es muestreada a una frecuencia insuficiente). De esta manera se ejecutó un tiempo de captura de 5 segundos donde cada una de las personas dice las siguientes oraciones: 
-Persona 1 (Tono grave): “Me gusta el futbol y me llamo Michel”
-Persona 2 (Tono normal): “Yo practico patinaje y me llamo Eliana”
-Persona 3 (Tono agudo): “Yo juego voleibol y me llamo Karen” 
+Persona 1. (Tono grave): “Me gusta el futbol y me llamo Michel”
+Persona 2. (Tono normal): “Yo practico patinaje y me llamo Eliana”
+Persona 3. (Tono agudo): “Yo juego voleibol y me llamo Karen” 
 Una vez realizadas las grabaciones, se hizo uso del formato de archivo WAV. La resolución en bits utilizada para la cuantificación de las señales de audio es un factor clave en la calidad de la grabación, para el caso, la aplicación RecForge II en los dispositivos móviles especifica que la cuantificación se realiza a 16 bits, implicando que cada muestra de audio es representada con una profundidad de dicho valor, permitiendo 65,536 niveles de cuantificación posibles. Esta cantidad de niveles proporciona una representación precisa de las señales de audio y ayuda a minimizar el error de cuantificación, que puede causar distorsión o pérdida de calidad en la señal.
 A continuación, se presenta la evidencia experimental obtenida:
 <div align="center">
   <img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="800"/>
 </div>
 Para un análisis riguroso, también se grabó el ruido ambiental en cada micrófono sin la presencia de voces. Este paso fue crucial para evaluar la calidad de la separación de fuentes, permitiendo comparar las señales de interés con el ruido capturado. En total se calcularon nueve SNR, clasificándose de la siguiente manera:
-1.	SNR PARA CADA MICRÓFONO: Para el cálculo de este SNR se hizo la relación entre la potencia de la grabación de las voces del micrófono específico (1,2 y 3) y la potencia del ruido grabado por cada micrófono. 
-
-2.	COMPARACIÓN SNR SEÑAL AISLADA: Para el calculo de este SNR se hizo la relación entre la potencia de la señal aislada en cada micrófono (voz grave para micrófono 1, 2 y 3) y la potencia de la grabación de las voces del micrófono específico.
-
-3.	COMPARACIÓN SEÑAL AISLADA FINAL: Para el calculo de este SNR se hizo la relación entre la potencia de la señal deseada final (resultado de la suma de las tres señales de interés) y la potencia de la grabación de las voces del micrófono específico (1,2 y 3).
+1.SNR PARA CADA MICRÓFONO: Para el cálculo de este SNR se hizo la relación entre la potencia de la grabación de las voces del micrófono específico (1,2 y 3) y la potencia del ruido grabado por cada micrófono. 
+2.COMPARACIÓN SNR SEÑAL AISLADA: Para el calculo de este SNR se hizo la relación entre la potencia de la señal aislada en cada micrófono (voz grave para micrófono 1, 2 y 3) y la potencia de la grabación de las voces del micrófono específico.
+3.COMPARACIÓN SEÑAL AISLADA FINAL: Para el calculo de este SNR se hizo la relación entre la potencia de la señal deseada final (resultado de la suma de las tres señales de interés) y la potencia de la grabación de las voces del micrófono específico (1,2 y 3).
 Este análisis será abordado en detalle en la sección "Análisis" del presente informe.
 
    
