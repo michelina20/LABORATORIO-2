@@ -306,6 +306,9 @@ A pesar de que la comparación entre cada análisis espectral, resulta similar ,
 
 ## APLICACIÓN BIOMÉDICA
 
+A partir de la realización de este laboratorio, se comprende que el procesamiento de señales es una habilidad esencial en la ingeniería biomédica, ya que muchos dispositivos biomédicos dependen de la captura, filtrado y análisis de señales. El laboratorio introduce conceptos clave como la filtración, análisis de señales y eliminación de ruido, proporcionando herramientas para extraer información útil en entornos con múltiples fuentes de interferencia, como el ruido de otros equipos o señales biológicas superpuestas. Además, se refuerza la habilidad de aislar la "señal de interés", una competencia fundamental para la separación de señales fisiológicas.
+
+Cabe recordar que la ingeniería biomédica tiene como objetivo mejorar la calidad de vida de las personas, en especial aquellas con discapacidades o condiciones médicas. Este laboratorio demuestra cómo la tecnología puede emplearse para resolver problemas del mundo real, como la mejora en la comprensión del habla en entornos ruidosos, lo que tiene un impacto directo en la vida diaria de personas con dificultades auditivas o problemas de comunicación.
 
 
 ## ANEXOS
