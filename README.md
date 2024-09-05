@@ -112,8 +112,7 @@ SNR=10*np.log10(resultado_potencia_PRIMERA/resultado_potencia_ruido)
 print("SNR PARA PRIMER MICRÓFONO (dB):", SNR)
 
 ```
-
-
+\\
 Para este punto se obtuvieron los siguientes resultados:
 
 <div align="center">
