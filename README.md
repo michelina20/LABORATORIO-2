@@ -83,8 +83,38 @@ output_file_summed = 'voz_grave_sumada.wav'
 sf.write(output_file_summed, summed_signal, sr)
 print(f"Archivo guardado: {output_file_summed}")
 
+```
+
+Como se  mencionó en la metodología del experimento, se realizó en cada caso la grabación del ruido ambiental (grabación con mismas condiciones sin la presencia de las voces), para determinar en cada caso cual era el SNR correspondiente, como se muestra a continuación:
+
+```python
+#SNR PARA PRIMERA SEÑAL:
+
+ruido_1 = '1SILENCIO.wav'
+ruido_y, sr = librosa.load(audio_file, sr=None, mono=False)
+
+min_length = min(len(y), len(ruido_y))
+y = y[:min_length]
+ruido_y = ruido_y[:min_length]
+
+
+PRIMERA_squared = np.square(y)
+sumatoria_PRIMERA = np.sum(PRIMERA_squared)
+resultado_potencia_PRIMERA = sumatoria_PRIMERA / len(y)
+
+
+ruido_squared = np.square(ruido_y)
+sumatoria_ruido = np.sum(ruido_squared)
+resultado_potencia_ruido = sumatoria_ruido / len(ruido_y)
+
+SNR=10*np.log10(resultado_potencia_PRIMERA/resultado_potencia_ruido)
+
+print("SNR PARA PRIMER MICRÓFONO (dB):", SNR)
 
 ```
+
+Para este punto se obtuvieron los siguientes resultados:
+
 
 ## ANÁLISIS DE RESULTADOS
 
