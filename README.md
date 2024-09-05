@@ -1,6 +1,6 @@
 # LABORATORIO #2 PROCESAMIENTO DIGITAL DE SEÑALES
 
-## Tabla de Contenidos
+## TABLA DE CONTENIDOS
 1. [Objetivo y Metodología del Experimento](#objetivo-y-metodología-del-experimento)
 2. [Configuración Del Sistema y Captura De La Señal](#configuración-del-sistema-y-captura-de-la-señal)
 3. [Fragmentos Clave Del Código Construido](#fragmentos-clave-del-código-construido)
