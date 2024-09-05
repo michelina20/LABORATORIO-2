@@ -210,9 +210,9 @@ plt.show()
 ```
 De forma gráfica se puede visualizar este análisis para cada caso de la siguiente forma:
 
-### Micrófono 1 
-
-
+### Micrófono 1:
+### Micrófono 2:
+### Micrófono 3:
 
 ## ANÁLISIS DE RESULTADOS
 
