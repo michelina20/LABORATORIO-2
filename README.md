@@ -266,7 +266,7 @@ De los SNR para cada micrófono, se pudo analizar lo siguiente:
 - Para los otros dos casos no se logró obtener un valor ideal ya que el SNR arrojado para cada caso fue de -6.0307 dB y -22.8233 dB respectivamente.
 - Finalmente de lo anterior podemos concluir que por las características de cada micrófono la potencia de la señal podría ser más alta o no.
   
-Para la comparación de la señal aislada con la grabación inicial en cada caso se obtuvieron los valores:
+Para la comparación de la señal aislada para cada caso con su respectiva grabación inicial se obtuvieron los valores de SNR:
 
 - Micrófono 1: -3.0047 dB
 - Micrófono 2: -2.4074 dB
