@@ -32,6 +32,8 @@ Para un análisis riguroso, también se grabó el ruido ambiental en cada micró
 
 
 - COMPARACIÓN SEÑAL AISLADA FINAL: Para el calculo de este SNR se hizo la relación entre la potencia de la señal deseada final (resultado de la suma de las tres señales de interés) y la potencia de la grabación de las voces del micrófono específico (1,2 y 3).
+
+
 Este análisis será abordado en detalle en la sección "Análisis" del presente informe.
 
    
