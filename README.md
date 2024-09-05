@@ -19,5 +19,6 @@ A continuación, se presenta la evidencia experimental obtenida:
   <img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="800"/>
 </div
   
-## CAPTURA DE LA SEÑAL
+  
+  ## CAPTURA DE LA SEÑAL
 
