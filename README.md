@@ -48,7 +48,25 @@ def lowpass_filter(data, cutoff, fs, order=5):
     return y
 ```
 
+A continuación se mostraran distintos procesos hechos con las señales en los que se visualiza el fragmento de código correspondiente a una variable, entendiendo que para aplicarlo a las otras señales simplemente se debe aplicar el cambio de variable respectivo. 
 
+Con lo anterior, se importa el audio del micrófono 1 y se realiza la separación de la voz grave así:
+
+```python
+audio_file = '1MICHEL Y ELI.wav'
+y, sr = librosa.load(audio_file, sr=None, mono=False)
+
+if y.ndim > 1:
+    y = librosa.to_mono(y)
+
+cutoff_freq = 800.0  
+y_filtered = lowpass_filter(y, cutoff_freq, sr, order=12)
+output_file = 'voz_grave_filtrada1.wav'
+sf.write(output_file, y_filtered, sr)
+print(f"Archivo guardado: {output_file}")
+
+
+```
 ## ANÁLISIS DE RESULTADOS
 
 
