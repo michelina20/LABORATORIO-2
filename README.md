@@ -272,7 +272,7 @@ Para la comparación de la señal aislada con la grabación inicial en cada caso
 - Micrófono 2: -2.4074 dB
 - Micrófono 3: -1.7146 dB
   
-Podemos notar como se obtienen resultados más altos y por endes mejores respecto a la cercanía entre el micrófono y la persona emisora del tono grave
+Podemos notar como se obtienen resultados más altos y por ende mejores respecto a la cercanía entre el micrófono y la persona emisora del tono grave, lo que sugiere una relación de inversa proporcionalidad entre la distancia y la calidad de la separación de una voz en específico.
 
 
 
