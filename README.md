@@ -5,6 +5,8 @@
 2. [Configuración Del Sistema y Captura De La Señal](#configuración-del-sistema-y-captura-de-la-señal)
 3. [Fragmentos Clave Del Código Construido](#fragmentos-clave-del-código-construido)
 4. [Análisis De Los Resultados](#análisis-de-resultados)
+5. [Aplicación Biomédica](#análisis-de-resultados)
+6. [Anexos](#análisis-de-resultados)
 
 ## OBJETIVO Y METODOLOGÍA DEL EXPERIMENTO
 El objetivo principal de este experimento fue desarrollar una solución para el fenómeno conocido como "Fiesta de coctel", que consiste en la capacidad de concentrarse en una fuente sonora específica mientras se filtran otras fuentes en un entorno con múltiples emisores de sonido. En este caso, se diseñó un sistema capaz de aislar una única voz entre tres personas hablando simultáneamente.
