@@ -65,8 +65,27 @@ output_file = 'voz_grave_filtrada1.wav'
 sf.write(output_file, y_filtered, sr)
 print(f"Archivo guardado: {output_file}")
 
+```
+Luego de repetir el proceso para cada señal, se realiza la reconstrucción total de la señal aislada, la cual corresponde a la suma de la voz grave aislada en cada caso, haciendo uso del siguiente código:
+
+```python
+min_length = min(len(y_filtered), len(y2_filtered), len(y3_filtered))
+y_filtered = y_filtered[:min_length]
+y3_filtered = y3_filtered[:min_length]
+y2_filtered = y2_filtered[:min_length]
+
+summed_signal = y_filtered + y2_filtered + y3_filtered
+
+#Se normaliza la señal
+summed_signal = summed_signal / np.max(np.abs(summed_signal))
+
+output_file_summed = 'voz_grave_sumada.wav'
+sf.write(output_file_summed, summed_signal, sr)
+print(f"Archivo guardado: {output_file_summed}")
+
 
 ```
+
 ## ANÁLISIS DE RESULTADOS
 
 
