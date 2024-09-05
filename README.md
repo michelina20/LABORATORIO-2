@@ -115,6 +115,9 @@ print("SNR PARA PRIMER MICRÓFONO (dB):", SNR)
 
 Para este punto se obtuvieron los siguientes resultados:
 
+<div align="center">
+  <img src="SNR SEÑALES INICIALES.png" alt="VALORES SNR PARA SEÑAL 1 RESPECTO AL RUIDO GRABADO" width="800"/>
+</div>
 
 ## ANÁLISIS DE RESULTADOS
 
