@@ -24,12 +24,14 @@ A continuación, se presenta la evidencia experimental obtenida:
   <img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="800"/>
 </div>
 Para un análisis riguroso, también se grabó el ruido ambiental en cada micrófono sin la presencia de voces. Este paso fue crucial para evaluar la calidad de la separación de fuentes, permitiendo comparar las señales de interés con el ruido capturado. En total se calcularon nueve SNR, clasificándose de la siguiente manera:
-1. SNR PARA CADA MICRÓFONO: Para el cálculo de este SNR se hizo la relación entre la potencia de la grabación de las voces del micrófono específico (1,2 y 3) y la potencia del ruido grabado por cada micrófono. 
-
-2. COMPARACIÓN SNR SEÑAL AISLADA: Para el calculo de este SNR se hizo la relación entre la potencia de la señal aislada en cada micrófono (voz grave para micrófono 1, 2 y 3) y la potencia de la grabación de las voces del micrófono específico.
 
 
-3. COMPARACIÓN SEÑAL AISLADA FINAL: Para el calculo de este SNR se hizo la relación entre la potencia de la señal deseada final (resultado de la suma de las tres señales de interés) y la potencia de la grabación de las voces del micrófono específico (1,2 y 3).
+- SNR PARA CADA MICRÓFONO: Para el cálculo de este SNR se hizo la relación entre la potencia de la grabación de las voces del micrófono específico (1,2 y 3) y la potencia del ruido grabado por cada micrófono. 
+
+- COMPARACIÓN SNR SEÑAL AISLADA: Para el calculo de este SNR se hizo la relación entre la potencia de la señal aislada en cada micrófono (voz grave para micrófono 1, 2 y 3) y la potencia de la grabación de las voces del micrófono específico.
+
+
+- COMPARACIÓN SEÑAL AISLADA FINAL: Para el calculo de este SNR se hizo la relación entre la potencia de la señal deseada final (resultado de la suma de las tres señales de interés) y la potencia de la grabación de las voces del micrófono específico (1,2 y 3).
 Este análisis será abordado en detalle en la sección "Análisis" del presente informe.
 
    
