@@ -261,18 +261,46 @@ De forma gráfica se puede visualizar este análisis para cada caso de la siguie
 
 ## ANÁLISIS DE RESULTADOS
 
-De los SNR para cada micrófono, se pudo analizar lo siguiente:
-- Para el primer micrófono que arrojó un valor de 0 dB se puede encontrar la justificación de dicho valor debido a que ambas señales contaban con la misma potencia.
-- Para los otros dos casos no se logró obtener un valor ideal ya que el SNR arrojado para cada caso fue de -6.0307 dB y -22.8233 dB respectivamente.
-- Finalmente de lo anterior podemos concluir que por las características de cada micrófono la potencia de la señal podría ser más alta o no.
-  
-Para la comparación de la señal aislada para cada caso con su respectiva grabación inicial se obtuvieron los valores de SNR:
+Con el fin de explorar métodos de separación de componentes que se ajustaran a condiciones específicas, se planteó de forma inicial en el experimento que cada una de las personas adquiriera un tono de voz distinto (grave, medio y agudo). Al momento de procesar estas señales e intentar separar la del tono más grave, se dio uso de filtros electrónicos que limitaran partiendo del hecho de que entre mayor es la frecuencia,más agudo es el tono, por ende se seleccionó un filtro pasa bajo con una frecuencia de corte de 800 Hz (este valor específico fue ajustado y ensayado, seleccionando a 800 Hz como el más pertinente).
 
-- Micrófono 1: -3.0047 dB
-- Micrófono 2: -2.4074 dB
-- Micrófono 3: -1.7146 dB
-  
+Para realizar las comparaciones previamente mencionadas se hizo uso de la relación señal ruido (SNR) la cual indica la predominancia de la señal de interés en contraste con el ruido, de lo cual se obtuvo lo siguiente:
+
+De los SNR para cada micrófono, se pudo analizar:
+
+- 	Para el primer micrófono que arrojó un valor de 0 dB se puede encontrar la justificación de dicho valor debido a que ambas señales contaban con la misma potencia.
+-  Para los otros dos casos no se logró obtener un valor ideal ya que el SNR arrojado para cada caso fue de -6.0307 dB y -22.8233 dB respectivamente.
+- 	Finalmente, de lo anterior podemos concluir que por las características de cada micrófono la potencia de la señal podría ser más alta o no.
+
+Para la comparación de la señal aislada con la grabación inicial en cada caso se obtuvieron los valores de SNR:
+
+- 	Micrófono 1: -3.0047
+- 	Micrófono 2: -2.4074
+- 	Micrófono 3: -1.7146
+
 Podemos notar como se obtienen resultados más altos y por ende mejores respecto a la cercanía entre el micrófono y la persona emisora del tono grave, lo que sugiere una relación de inversa proporcionalidad entre la distancia y la calidad de la separación de una voz en específico.
+
+Por último, se realizó la comparación entre la señal reconstruida final que la componen la suma de las señales aisladas, para compararla con la señal inicial de cada micrófono, de lo que obtuvimos:
+
+- 	Micrófono 1: 6.2782
+- 	Micrófono 2: 5.5374
+- 	Micrófono 3: 14.9958
+
+En esta instancia podemos observar un notable cambio para con los resultados anteriores, lo cual resalta lo fundamental de la reconstrucción con las señales de los tres sensores, pues de esta forma se logra captar aspectos de distintas condiciones espaciales con la calidad de cada caso, a su vez se reafirma que el mejor resultado es el producido por el micrófono 3, el cual según criterios de análisis de separación de señales cuenta con un valor ideal, de esta forma se concluye que fue exitosa la separación de la señal.
+
+En cuanto a los aspectos que pudieron llevar a que la separación para los micrófonos 1 y 2 fuera deficiente se señalan aspectos como: 
+
+- 	Al no tener una potencia de la voz grave tan alta debido a la cercanía, resultó más complejo separar la voz con tono medio de la grave pues cuentan con frecuencias más cercanas en comparación al tono agudo.
+- 	Como se menciono anteriormente, la técnica de separación fue mediante un filtro pasa bajo el cual pudo no haber sido tan robusto en comparación con técnicas de separación de componentes como el ICA o beamforming. 
+- 	Una mayor separación entre los micrófonos y las personas pudo haber impulsado mejores resultados.
+
+## Análisis Temporal:
+
+Se puede determinar que hubo una repartición desigual en cuanto a los dB alcanzados en función del tiempo, lo cual es coherente tomando en cuenta que se trata de distintas frases, sin embargo, la naturaleza de las mismas pudo influir, como lo es el hecho de realizar pausas al momento de mencionar el nombre para cada persona. 
+Para cada gráfica en el dominio del tiempo se logra distinguir pequeñas variaciones que corresponden a su ubicación y cercanía con emisores.
+
+## Análisis Espectral:
+
+A pesar de que la comparación entre cada análisis espectral, resulta similar , cuenta con ligeras diferenciaciones,  este análisis respalda de forma contundente la predominancia de la voz grave en el micrófono 3, pues este cuenta con mayores picos en las frecuencias determinadas para tonos graves y disminución frente a las frecuencias altas. 
 
 
 
