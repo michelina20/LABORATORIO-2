@@ -119,7 +119,7 @@ Para este punto se obtuvieron los siguientes resultados:
   <img src="SNR SEÑALES INICIALES.png" alt="VALORES SNR PARA SEÑAL 1 RESPECTO AL RUIDO GRABADO" width="800"/>
 </div>
 
-Como ya sabemos previamente fue generada una señal aislada para cada micrófono, la cual es la señal de interés, siendo así la grabacion inicial que contiene las voces se converitiría en el "ruido" para esta compraración hecha mediante SNR, haciendo uso del siguiente código:
+Como ya sabemos, previamente fue generada una señal aislada para cada micrófono, la cual es la señal de interés, siendo así la grabacion inicial que contiene las voces se converitiría en el "ruido" para esta compraración hecha mediante SNR, haciendo uso del siguiente código:
 
 ```python
 #COMPARACIÓN DE SEÑAL AISLADA CON LA ORIGINAL DE CADA MICRÓFONO
