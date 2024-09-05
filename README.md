@@ -262,12 +262,12 @@ De forma gráfica se puede visualizar este análisis para cada caso de la siguie
 ## ANÁLISIS DE RESULTADOS
 
 De los SNR para cada micrófono, se pudo analizar lo siguiente:
-•	Para el primer micrófono que arrojó un valor de 0 dB se puede encontrar la justificación de dicho valor debido a que ambas señales contaban con la misma potencia.
-•	Para los otros dos casos no se logró obtener un valor ideal ya que el SNR arrojado para cada caso fue de -6.0307 dB y -22.8233 dB respectivamente.
-•	Finalmente de lo anterior podemos concluir que por las características de cada micrófono la potencia de la señal podría ser más alta o no.
+-  	Para el primer micrófono que arrojó un valor de 0 dB se puede encontrar la justificación de dicho valor debido a que ambas señales contaban con la misma potencia.
+-  Para los otros dos casos no se logró obtener un valor ideal ya que el SNR arrojado para cada caso fue de -6.0307 dB y -22.8233 dB respectivamente.
+- inalmente de lo anterior podemos concluir que por las características de cada micrófono la potencia de la señal podría ser más alta o no.
 Para la comparación de la señal aislada con la grabación inicial en cada caso se obtuvieron los valores:
-•	Micrófono 1: -3.0047
-•	Micrófono 2: -2.4074
-•	Micrófono 3: -1.7146
+- Micrófono 1: -3.0047
+- Micrófono 2: -2.4074
+- Micrófono 3: -1.7146
 Podemos notar como 
 
