@@ -274,3 +274,9 @@ Para la comparación de la señal aislada con la grabación inicial en cada caso
   
 Podemos notar como se obtienen resultados más altos y por endes mejores respecto a la cercanía entre el micrófono y la persona emisora del tono grave
 
+
+
+
+
+## ANEXOS
+
