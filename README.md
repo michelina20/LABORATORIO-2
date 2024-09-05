@@ -113,6 +113,7 @@ print("SNR PARA PRIMER MICRÓFONO (dB):", SNR)
 
 ```
 
+
 Para este punto se obtuvieron los siguientes resultados:
 
 <div align="center">
