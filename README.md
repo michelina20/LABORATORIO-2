@@ -25,7 +25,7 @@ Para la grabación, se utilizaron tres dispositivos móviles: Xiaomi Redmi Note 
 Una vez realizadas las grabaciones, se hizo uso del formato de archivo WAV. La resolución en bits utilizada para la cuantificación de las señales de audio es un factor clave en la calidad de la grabación, para el caso, la aplicación RecForge II en los dispositivos móviles especifica que la cuantificación se realiza a 16 bits, implicando que cada muestra de audio es representada con una profundidad de dicho valor, permitiendo 65,536 niveles de cuantificación posibles. Esta cantidad de niveles proporciona una representación precisa de las señales de audio y ayuda a minimizar el error de cuantificación, que puede causar distorsión o pérdida de calidad en la señal.
 A continuación, se presenta la evidencia experimental obtenida:
 <div align="center">
-  <img src="señalesinsono.jpg" alt="FOTO EXPERIMENTAL" width="800"/>
+  <img src="señalemg.jpg" alt="SEÑAL EMG MUSCULO BRAQUIORADIAL" width="800"/>
 </div>
 Para un análisis riguroso, también se grabó el ruido ambiental en cada micrófono sin la presencia de voces. Este paso fue crucial para evaluar la calidad de la separación de fuentes, permitiendo comparar las señales de interés con el ruido capturado. En total se calcularon nueve SNR, clasificándose de la siguiente manera:
 
